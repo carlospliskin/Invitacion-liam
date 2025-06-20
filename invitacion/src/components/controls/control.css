@@ -1,0 +1,39 @@
+.controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.control-button {
+    background: #0074D9;
+    color: #FFD700;
+    border: 2px solid #FFD700;
+    height: 60px;
+    width: 160px;
+    font-size: 16px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    font-weight: bold;
+    transition: background 0.2s, color 0.2s;
+}
+
+.control-button:hover{
+    cursor: pointer;
+    color: #0074D9;
+    background: #FFD700;
+    border: 2px solid #0074D9;
+}
+
+@media (max-width: 600px) {
+    .controls-container {
+     flex-direction: column;
+     height: 140px;
+     width: auto;
+    }
+  
+  }
+  

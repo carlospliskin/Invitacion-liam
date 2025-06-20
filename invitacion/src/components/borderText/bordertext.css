@@ -1,0 +1,21 @@
+  .bordered-container {
+    border-top: 4px solid #00509e;
+    border-bottom: 4px solid #00509e;
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+    width: 180px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #003366;
+    background: rgba(255,255,255,0.7);
+    font-weight: bold;
+  }
+
+  @media (max-width: 600px) {
+    .bordered-container {
+      width: 130px;
+    }
+  }

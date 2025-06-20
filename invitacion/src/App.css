@@ -1,0 +1,32 @@
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Nunito", sans-serif;
+}
+
+.app {
+  position: relative;
+  height: 100vh;
+  background: #b3e0ff; /* azul claro */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.day-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

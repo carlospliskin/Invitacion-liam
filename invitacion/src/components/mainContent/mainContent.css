@@ -1,0 +1,58 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.photo {
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .main-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    color: #003366;
+    margin: 10px 0;
+  }
+  
+  .birthday-text {
+    font-family: 'Seasons', serif;
+    font-size: 80px;
+    color: #00509e;
+    margin: 0px;
+  }
+  
+  .name {
+    font-family: 'Rhyme', serif;
+    font-size: 80px;
+    margin: 5px 0;
+    color: #FFD700;
+    text-shadow: 2px 2px 8px #003366;
+  }
+  
+  /* Animación personalizada para la imagen */
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: scale(0.8); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+
+  @media (max-width: 600px) {
+    .birthday-text {
+      font-size: 50px; 
+    }
+  }
+
+  @media (max-width: 389px) {
+    .main-text {
+      font-size: 22px; 
+    }
+    .birthday-text {
+      font-size: 40px;
+    }
+  }
