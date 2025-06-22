@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/invitacion-liam/static/css/main.4358ab73.css",
-    "main.js": "/invitacion-liam/static/js/main.7a4bc2fc.js",
+    "main.js": "/invitacion-liam/static/js/main.daf315c2.js",
     "static/js/453.ee7da2d2.chunk.js": "/invitacion-liam/static/js/453.ee7da2d2.chunk.js",
     "static/media/Nube.png": "/invitacion-liam/static/media/Nube.cb236acf18002a5dd6c3.png",
     "static/media/bg04.png": "/invitacion-liam/static/media/bg04.1aff63c99cc088a77ddc.png",
@@ -10,11 +10,11 @@
     "static/media/bg05.png": "/invitacion-liam/static/media/bg05.f9cbeb5cc46b0796c1da.png",
     "index.html": "/invitacion-liam/index.html",
     "main.4358ab73.css.map": "/invitacion-liam/static/css/main.4358ab73.css.map",
-    "main.7a4bc2fc.js.map": "/invitacion-liam/static/js/main.7a4bc2fc.js.map",
+    "main.daf315c2.js.map": "/invitacion-liam/static/js/main.daf315c2.js.map",
     "453.ee7da2d2.chunk.js.map": "/invitacion-liam/static/js/453.ee7da2d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4358ab73.css",
-    "static/js/main.7a4bc2fc.js"
+    "static/js/main.daf315c2.js"
   ]
 }
