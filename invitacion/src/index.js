@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/invitacion-liam">
       <Routes>
         <Route path="/invitacion-liam" element={<App />} />
         <Route path="*" element={<Navigate to="/invitacion-liam" replace />} />
